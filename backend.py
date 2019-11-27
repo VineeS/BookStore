@@ -45,10 +45,7 @@ def Delete(Id):
     connected.commit()
     connected.close()
 
-def Close():
-    connected = sqlite3.connect("book.db")
-    connected.commit()
-    connected.close()
+
 
 
 #def Search():
